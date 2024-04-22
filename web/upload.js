@@ -13,7 +13,7 @@ const style = `
 
 const URL_REGEX = /^(https?:\/\/|\/view\?|data:image\/)/;
 
-const supportedNodes = ['LoadImageFromUrl', 'LoadImageAsMaskFromUrl', 'LoadVideoFromUrl'];
+const supportedNodes = ['UtilLoadImageFromUrl', 'LoadImageAsMaskFromUrl', 'LoadVideoFromUrl'];
 
 function chainCallback(object, property, callback) {
   if (object == undefined) {
