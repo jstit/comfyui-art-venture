@@ -589,7 +589,7 @@ app.registerExtension({
 
     addKVState(nodeType);
 
-    if (nodeData.name === 'LoadImageFromUrl' || nodeData.name === 'LoadImageAsMaskFromUrl') {
+    if (nodeData.name === 'UtilLoadImageFromUrl' || nodeData.name === 'LoadImageAsMaskFromUrl') {
       addUploadWidget(nodeType, 'url', 'image');
       addImagePreview(nodeType, 'url');
     } else if (nodeData.name == 'LoadVideoFromUrl') {
